@@ -1,0 +1,48 @@
+* {
+	box-sizing: border-box;
+	outline: 1px solid red;
+}
+
+
+
+@media screen and (max-width: 1024px) {
+	body {
+    background: red;
+  }
+  .header {
+	width: 100%;
+	height: 8vh;
+	display: inline-block;
+  &__images {}
+}
+}
+
+
+@media screen and (max-width: 768px) {
+	body {
+    background: green;
+  }
+}
+
+@media screen and (max-width: 640px) {
+	body {
+    background: blue;
+  }
+}
+
+// Fonts
+// --------
+// + Title Fonts: 'PT Mono', monospace
+// + Body Fonts : 'Roboto', sans-serif
+
+// Google fonts link :
+//   <link href="https://fonts.googleapis.com/css?family=PT+Mono|Roboto" rel="stylesheet">
+
+
+// Colors
+// --------------
+// Title Green Font Color
+//   #007C4C
+
+// Header Background Color
+//   #DDDDDD
